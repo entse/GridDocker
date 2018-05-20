@@ -37,7 +37,7 @@ public WebDriver driver=null;
 			cap.setPlatform(Platform.WINDOWS);
 		}
 		
-		driver = new RemoteWebDriver(new URL("http://localhost:4446/wd/hub"),cap);
+		driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),cap);
 		
 		
 		driver.get("http://google.com");
